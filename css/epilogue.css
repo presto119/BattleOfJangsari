@@ -1,0 +1,48 @@
+#epilogue{}
+#epilogue .wrap{
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#epilogue .wrap .cont{
+    width: 100%;
+}
+#epilogue .wrap .cont .box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+#epilogue .wrap .cont .box:nth-child(2){flex-direction: row-reverse;}
+#epilogue .wrap .cont .box .img_part{
+    width: calc(100% / 5 * 2 - 20px); height: 240px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0 10px;
+}
+#epilogue .wrap .cont .box:nth-child(1) .img_part{background-image: url(../img/ep_top_01.png);}
+#epilogue .wrap .cont .box:nth-child(2) .img_part{background-image: url(../img/ep_top_02.png);}
+#epilogue .wrap .cont .box:nth-child(3) .img_part{background-image: url(../img/ep_top_03.png);}
+#epilogue .wrap .cont .box .txt_part{
+    width: calc(100% / 5 * 3 - 20px);
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#epilogue .wrap .cont .box .txt_part p{
+    font-size: 18px;
+    color: #1f232f;
+    text-align: center;
+}
+
+#epilogue .wrap .bottom_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#epilogue .wrap .bottom_img img{
+    height: 360px;
+    margin-bottom: 20px;
+}
